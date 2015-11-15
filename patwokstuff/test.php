@@ -1,14 +1,8 @@
-<?php
+<html>
+<body>
 
-    $number1 = $_POST['number1'];
-    $number2 = $_POST['number2'];
-    $number3 = $_POST['number3'];
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
 
-    $myArray = Array($number1, $number2, $number3);
-
-   echo '<pre>';
-    print_r ($myArray);
-    echo '</pre>';
-
-
-?>
+</body>
+</html>
