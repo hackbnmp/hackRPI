@@ -1,0 +1,17 @@
+<html>
+	<head>
+	<title>Retrieve data from database </title>
+	</head>
+	<body>
+
+	<?php
+
+	ini_set('display_errors', 1);
+
+	// Connect to database server
+	//mysql_connect('173.194.83.185', 'root', '') or die (mysql_error ());
+
+	?>
+	</body>
+	</html>
+	
